@@ -6,39 +6,15 @@
 [![Documentation Status](https://readthedocs.org/projects/vis/badge/?version=master)](http://vis.readthedocs.io/en/master/?badge=master)
 [![#vis-editor on libera](https://img.shields.io/badge/IRC-%23vis--editor-blue.svg)](ircs://irc.libera.chat:6697/vis-editor)
 
-Vis aims to be a modern, legacy-free, simple yet efficient editor,
-combining the strengths of both vi(m) and sam.
-
-It extends vi's modal editing with built-in support for multiple
-cursors/selections and combines it with [sam's](http://sam.cat-v.org/)
-[structural regular expression](http://doc.cat-v.org/bell_labs/structural_regexps/)
-based [command language](http://doc.cat-v.org/bell_labs/sam_lang_tutorial/).
-
-A universal editor, it has decent Unicode support and should cope with arbitrary
-files, including large, binary or single-line ones.
-
-Efficient syntax highlighting is provided using
-[Parsing Expression Grammars](https://en.wikipedia.org/wiki/Parsing_expression_grammar),
-which can be conveniently expressed using [Lua](http://www.lua.org/)
-in the form of [LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/).
-
-The editor core is written in a reasonable amount of clean (your mileage
-may vary), modern and legacy-free C code, enabling it to run in
-resource-constrained environments. The implementation should be easy to hack on
-and encourages experimentation. There is also a Lua API for in-process
-extensions.
-
-Vis strives to be *simple* and focuses on its core task: efficient text
-management. Clipboard and digraph handling as well as a fuzzy file open
-dialog are all provided by independent utilities. There exist plans to use
-a client/server architecture, delegating window management to your windowing
-system or favorite terminal multiplexer.
-
-The intention is *not* to be bug-for-bug compatible with vi(m). Instead,  
-we aim to provide more powerful editing features based on an elegant design
-and clean implementation.
-
 [![vis demo](https://asciinema.org/a/41361.png)](https://asciinema.org/a/41361)
+
+Description
+-----------
+
+It's vim, but small, & with colemak keybinds.
+Move with hnei, search with k, insert with l, j does whatever e used to do.
+
+Everything else in this readme is from the original project, because I don't know what I'm doing.
 
 Build instructions
 ------------------
